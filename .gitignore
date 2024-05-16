@@ -1,6 +1,9 @@
 # Environment variable
 .env
 
+# Thunder tests
+thunder-tests/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
