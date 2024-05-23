@@ -27,7 +27,7 @@ func main() {
 	}
 
 	dbUrl := os.Getenv("DB_URL")
-	if portString == "" {
+	if dbUrl == "" {
 		log.Fatal("Db url is not found in env")
 	}
 
